@@ -47,12 +47,10 @@ function PageTransition(){
 PageTransition();
 
 const submitButton = document.getElementById('submit-button');
-  
-  submitButton.addEventListener('click', () => {
-    // code to submit the form or perform other actions on button click
-    // for example:
-    alert('Form submitted!');
-  });
 
+submitButton.addEventListener('click', () => {
+    alert('Form submitted!');
+    location.reload();
+    });
 
 
